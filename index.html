@@ -1,0 +1,41 @@
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href = "position.css" rel = "stylesheet" type = "text/css" />
+  <link href = "style.css" rel = "stylesheet" type = "text/css" />
+  <link href = "about.css" rel = "stylesheet" type = "text/css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Libre+Barcode+128+Text" rel="stylesheet">
+
+  <script src = "packages/jquery3.3.1.min.js"></script>
+  <script src="packages/color-thief.min.js"></script>
+  <script src="helpers.js"></script>
+  <script src = "index.js"></script>
+
+</head>
+
+<body>
+
+  <div id="banner">
+    <div id="title" class = "upper-50">
+      <h1 onclick = "about()" class = "noselect"> #bodega_ </h1>
+    </div>
+
+    <button onclick = "uploadClick()" id="upload-button-div" class = "upper-50">
+    <input id = "uploadInput" type="file" onchange="previewFile()">
+      ( new pic )
+    </button>
+  </div>
+  <div id="content">
+      <div id="about">
+        <!--<h1 id = "about-header">About</h1>-->
+        <p1 class = "about-p1" id = toppestP> <sp id = "welcome">Welcome to bodega.</sp> This site is designed to serve as a tool for using a digital color pallete.</p1>
+        <p1 class = "about-p1" id = "topP">To start, upload an image using the </p1>
+        <p1 class = "about-p1" id = "bold"> ( new pic ) </p1>
+        <p1 class = "about-p1" id = "bottomP"> button on the top right of your screen. Special Thanks to Lokesh Dhakar for making the <a href="https://lokeshdhakar.com/projects/color-thief/"> Color-Thief</a>  package </p1>
+      </div>
+      <img class = "lower-50" id = "theImage" class = "menu menu-left" alt = "color">
+      <div class = "lower-50" id = "color-buttons" class = "menu menu-right">
+      </div>
+  </div>
+</body>

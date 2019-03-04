@@ -1,0 +1,75 @@
+#about {
+  padding: 2% 20% 0px;
+  display: block;
+  background: #e0dcdc;
+  font-family: 'Inconsolata', monospace;
+  background-image: url(cigs_n_bottles.jpg);
+  height: 100%;
+
+}
+
+#about-header {
+  font-size: 300%;
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  float: center;
+  color: #3b3b3b;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  display: block;
+  padding: 0px;
+
+}
+
+#toppestP {
+  margin-top: 4%;
+}
+
+#welcome {
+    color: #3b3b3b;
+    font-weight: 600;
+}
+
+.about-p1 {
+  font-size: 200%;
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  color: #6a6a6a;
+  padding-bottom: 5%;
+  display: block;
+}
+
+#bold {
+  /*color: #3b3b3b;*/
+  display: inline;
+  float: center;
+  background: #3b3b3b;
+  color: white;
+  padding: 3%;
+  border-radius: 10px;
+}
+
+#bottomP {
+  padding-top: 8%;
+}
+
+#topP {
+  padding-bottom: 8%;
+}
+
+
+@media only screen and (max-width: 500px) {
+  #about {
+    padding: 20px 20px 0px;
+    display: block;
+  }
+
+  #about-header {
+    text-align: center;
+
+  }
+
+  .about-p1 {
+    text-align: left;
+  }
+}

@@ -1,0 +1,91 @@
+* {
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+body {
+  background: #cccccc;
+}
+
+content {
+  background-image: url(cigs_n_bottles.jpg);
+}
+
+#banner {
+  background: red;
+}
+
+.upper-50 {
+  color: red;
+}
+
+#title {
+  background: black;
+  color: white;
+}
+
+h1 {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  /* font-family: 'Libre Barcode 39 Extended Text', cursive; */
+  font-weight: 1;
+}
+
+#title:hover {
+  color: #575757;
+}
+
+#upload-button-div {
+  background: black;
+  color: #ebebeb;
+  font-family: 'Inconsolata', monospace;
+}
+
+#upload-button-div:hover {
+  background: white;
+  color: black;
+}
+
+#upload-button-div:active {
+  color: white;
+}
+
+#uploadInput {
+  display: none;
+}
+
+#content {
+  background: #dadada;
+}
+
+.lower-50 {
+}
+
+#theImage {
+  background: blue;
+}
+
+#color-buttons {
+  background: orange;
+  outline: none;
+}
+
+.buttons {
+  border-radius: 25px;
+  background: white;
+  border: 0px;
+}
+
+
+.buttons:hover {
+  /*this has to be done in javascript when creating the hover button
+  Since javascript can't control the :hover property,
+  you can set mouseover and mouseout*/
+}
