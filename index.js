@@ -87,7 +87,7 @@ function previewFile(){
   function getImageColors(image){
     var colorThief = new ColorThief();
     var colors = {};
-    colors.a = colorThief.getPalette(image, 12);
+    colors.a = colorThief.getPalette(image, 24);
     colors.b = colorThief.getColor(image);
     return colors;
   }
