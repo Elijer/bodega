@@ -78,6 +78,10 @@ h1 {
   outline: none;
 }
 
+#button-description {
+  color: white;
+}
+
 .buttons {
   border-radius: 25px;
   background: white;
@@ -89,4 +93,11 @@ h1 {
   /*this has to be done in javascript when creating the hover button
   Since javascript can't control the :hover property,
   you can set mouseover and mouseout*/
+}
+
+.info-box {
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  padding-bottom: 30px;
+  font-size: 15px;
 }

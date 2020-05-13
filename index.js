@@ -24,11 +24,15 @@ function displayViz(bool){
   if (bool){
     document.getElementById('theImage').style.display = 'flex';
     document.getElementById('color-buttons').style.display = 'flex';
+    //document.getElementById('button-description').style.display = 'flex';
     document.getElementById('about').style.display = 'none';
+
   } else {
     document.getElementById('theImage').style.display = 'none';
     document.getElementById('color-buttons').style.display = 'none';
-        document.getElementById('about').style.display = 'block';
+    document.getElementById('button-description').style.display = 'none';
+
+    document.getElementById('about').style.display = 'block';
   }
 }
 
@@ -60,6 +64,15 @@ function previewFile(){
 
      //remove previous buttons
      $('#color-buttons').empty();
+
+
+     //create an info box that tells the user what clicking the tiles does
+     var tempTarget = $('#color-buttons')[0];
+     var infoBox = document.createElement("p1");
+     infoBox.innerHTML = "Click on a color tile below to copy the hex code to your clipboard";
+     //newButton.style.background = "#453a3a";
+     infoBox.classList.add("info-box");
+     tempTarget.appendChild(infoBox);
 
      if (file) {
          reader.readAsDataURL(file); //reads the data as a URL
