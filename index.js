@@ -69,7 +69,7 @@ function previewFile(){
      //create an info box that tells the user what clicking the tiles does
      var tempTarget = $('#color-buttons')[0];
      var infoBox = document.createElement("p1");
-     infoBox.innerHTML = "Click on a color tile below to copy the hex code to your clipboard";
+     infoBox.innerHTML = "Click on a color tile below to copy its hex code to your clipboard";
      //newButton.style.background = "#453a3a";
      infoBox.classList.add("info-box");
      tempTarget.appendChild(infoBox);
