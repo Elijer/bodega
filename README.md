@@ -3,7 +3,7 @@
 I've often found that one of the funnest ways to create a color scheme is to use photographs, as they already naturally full of interesting relationships between colors reacting to light.
 
 ## Try It Out
-Just go to elijer.github.io
+[Here is the live demo](https://elijer.github.io/)
 
 ## How It Works
 * Press on the 'New Pic' button on the top right of the screen to upload your reference photo
